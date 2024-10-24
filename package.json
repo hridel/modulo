@@ -1,0 +1,42 @@
+{
+  "name": "modulo",
+  "version": "1.0.0",
+  "description": "A robust modular arithmetic utility for JavaScript, handling both positive and negative integers with ease. Ensure consistent, non-negative results for your modulo operations. Perfect for mathematical computations, circular buffer implementations, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hridel/modulo.git"
+  },
+  "keywords": [
+    "modular",
+    "arithmetic",
+    "modulo",
+    "remainder",
+    "math",
+    "integer",
+    "operations",
+    "number",
+    "theory",
+    "positive",
+    "integers",
+    "negative",
+    "integers",
+    "npm",
+    "JavaScript",
+    "utility",
+    "mathematical",
+    "computation"
+  ],
+  "author": "Ing. Jan Hridel (@wdwcx)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hridel/modulo/issues"
+  },
+  "homepage": "https://github.com/hridel/modulo#readme",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
