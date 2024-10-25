@@ -1,5 +1,5 @@
 {
-  "name": "modulo",
+  "name": "@hridel/modulo",
   "version": "1.0.0",
   "description": "A robust modular arithmetic utility for JavaScript, handling both positive and negative integers with ease. Ensure consistent, non-negative results for your modulo operations. Perfect for mathematical computations, circular buffer implementations, and more.",
   "main": "dist/index.js",
