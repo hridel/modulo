@@ -13,3 +13,19 @@ export function mod(n: number, m: number): number {
 // Example usage
 const exampleResult: number = mod(-1, 5);
 console.log(`The result of -1 mod 5 is: ${exampleResult}`);  // The result of -1 mod 5 is: 4
+
+/**
+ * Remainder function similar to Haskell's rem.
+ * Returns the remainder with the same sign as the dividend.
+ *
+ * @param n - The number to be divided.
+ * @param m - The divisor.
+ * @returns The remainder.
+ */
+export function rem(n: number, m: number): number {
+  return n % m;
+}
+
+// Example usage
+const exampleRemResult: number = rem(-1, 5);
+console.log(`The result of -1 rem 5 is: ${exampleRemResult}`);  // The result of -1 rem 5 is: -1
