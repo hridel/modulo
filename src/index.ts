@@ -29,3 +29,19 @@ export function rem(n: number, m: number): number {
 // Example usage
 const exampleRemResult: number = rem(-1, 5);
 console.log(`The result of -1 rem 5 is: ${exampleRemResult}`);  // The result of -1 rem 5 is: -1
+
+/**
+ * Euclidean division function similar to Haskell's div.
+ * Returns the quotient rounded towards negative infinity.
+ *
+ * @param n - The number to be divided.
+ * @param m - The divisor.
+ * @returns The quotient.
+ */
+export function div(n: number, m: number): number {
+  return Math.floor(n / m);
+}
+
+// Example usage
+const exampleDivResult: number = div(-1, 5);
+console.log(`The result of -1 div 5 is: ${exampleDivResult}`);  // The result of -1 div 5 is: -1

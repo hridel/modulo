@@ -27,8 +27,22 @@ const exampleResult: number = rem(-1, 5);
 console.log(`The result of -1 rem 5 is: ${exampleResult}`);  // The result of -1 rem 5 is: -1
 ```
 
+## `div` function example
+
+```javascript
+import { div } from '@hridel/modulo';
+
+// Example usage
+const exampleResult: number = div(-1, 5);
+console.log(`The result of -1 div 5 is: ${exampleResult}`);  // The result of -1 div 5 is: -1
+```
+
 ## Why to use this library?
 
 Because `(-1 % 5)` in JavaScript returns `-1`, which is not a valid result for a **modulo** operation.
+
 This library ensures that the result of the `mod` function is always a non-negative integer.
-And the `rem` function returns the remainder of the division operation, which can be negative.
+
+The `rem` function returns the remainder of the division operation, which can be negative.
+
+And the `div` function returns the quotient rounded towards negative infinity, similar to Haskell's `div`.
